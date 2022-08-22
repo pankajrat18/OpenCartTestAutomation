@@ -2,14 +2,9 @@ package com.qa.opencart.pages;
 
 public class Selenium {
 
-	
 	public static void main(String[] args) {
-	 int i = 2;
-	 int j = 6;
-	 int k= 10;
-	
 
-		System.out.println(i + j+k);
+		System.out.println("Selenium code");
 
 	}
 
