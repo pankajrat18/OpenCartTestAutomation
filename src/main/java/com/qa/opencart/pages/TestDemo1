@@ -1,0 +1,14 @@
+package com.qa.opencart.pages;
+
+public class Selenium {
+
+	static int i = 2;
+	static int j = 6;
+
+	public static void main(String[] args) {
+
+		System.out.println(i + j);
+
+	}
+
+}
