@@ -30,7 +30,7 @@ public class LoginPage {
 	}
 
 	// 03 - Page Actions
-	@Step("getting login page title")
+	@Step("getting login page title for Application")
 	public String getLoginPageTitle() {
 		String title = eleUtil.waitForTitleToBe(AppConstants.LOGIN_PAGE_TITLE, AppConstants.SMALL_DEFAULT_TIMEOUT);
 		System.out.println("Page Title is " + title);
